@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const LandingBox = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
 `;
 export const FormBox = styled.div`
@@ -12,4 +12,9 @@ export const FormBox = styled.div`
   flex-direction: column;
   align-items: end;
   height: 100%;
+  margin-right: 15%;
+  @media (max-width: 800px) {
+    margin-right: 0px;
+    align-items: center;
+  }
 `;

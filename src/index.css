@@ -23,8 +23,10 @@ a:hover {
 body,
 html {
   margin: 0;
+  display: flex;
+  flex-direction: column;
   max-width: 100vw;
-  min-height: 100vh;
+  min-height: 100%;
   background-image: url('@/assets/background.png');
   background-position: initial;
   background-repeat: no-repeat;

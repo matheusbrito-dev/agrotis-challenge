@@ -8,6 +8,6 @@ export const StyledForm = styled.form`
   border: none;
   box-shadow: none;
   border-radius: 8px;
-  min-height: 230px;
-  min-width: 350px;
+  min-height: 70%;
+  min-width: 30%;
 `;
